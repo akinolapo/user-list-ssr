@@ -35,8 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image", // Type of Twitter Card (e.g., summary, summary_large_image)
     site: "@StartHubAcademy", // Your Twitter handle
     title: "StartHub Academy - User List",
-    description: "Explore our SSR-rendered user list with Next.js 15, optimized for SEO and accessibility.",
-    image: "/images/og-image.jpg", // Image URL for Twitter
+    description: "Explore our SSR-rendered user list with Next.js 15, optimized for SEO and accessibility."
   },
   robots: {
     index: true,
