@@ -28,25 +28,31 @@ export default async function Home() {
   const users = await getUsers();
 
   return (
-    <main className="p-6">
-      <h1 className="text-2xl font-bold mb-4">User List</h1>
-      <ul className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+    <main className="p-6 bg-gray-50 min-h-screen">
+      <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">Our Users</h1>
+      <ul className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
         {users.map((user) => (
           <li
             key={user.id}
             tabIndex={0}
-            className="border rounded-xl p-4 shadow hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="bg-white border border-gray-200 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
-            {/* <Image
-              src={user.image}
-              alt={`Avatar of ${user.name}`}
-              width={100}
-              height={100}
-              className="rounded-full mb-3"
-              priority={true}
-            /> */}
-            <h2 className="text-lg font-semibold">{user.name}</h2>
-            <p className="text-sm text-gray-600">{user.description}</p>
+            <div className="flex items-center space-x-6">
+              <div className="flex-shrink-0">
+                <Image
+                  src={user.image}
+                  alt={`Avatar of ${user.name}`}
+                  width={100}
+                  height={100}
+                  className="rounded-full border-4 border-indigo-500"
+                  priority={true}
+                />
+              </div>
+              <div className="flex-1">
+                <h2 className="text-2xl font-semibold text-gray-800">{user.name}</h2>
+                <p className="mt-2 text-sm text-gray-600">{user.description}</p>
+              </div>
+            </div>
           </li>
         ))}
       </ul>

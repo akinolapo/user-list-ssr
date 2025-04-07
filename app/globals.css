@@ -1,8 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background-light: #f7f8fa; /* Light background */
+  --foreground-light: #333333; /* Dark text for contrast */
+  --accent-color: #4caf50; /* Fresh green accent */
+  --accent-hover-color: #45a049; /* Darker shade for hover */
+  --highlight-color: #ff9800; /* Orange for highlights or important text */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: var(--background-light);
+    --foreground: var(--foreground-light);
+  }
 }
 
 @theme inline {
@@ -12,15 +24,92 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--accent-hover-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  margin-bottom: 0.5rem;
+  font-weight: 600; /* Slightly bolder headings */
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Adds a soft corner radius to images */
+}
+
+ul, ol {
+  list-style-position: inside;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+button {
+  background-color: var(--accent-color);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  border-radius: 5px; /* Smooth corners for buttons */
+  transition: background-color 0.3s ease-in-out;
+  font-size: 1rem; /* Standard button size */
+}
+
+button:hover {
+  background-color: var(--accent-hover-color);
+}
+
+input, textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: var(--font-mono);
+  transition: border-color 0.3s ease-in-out;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  button {
+    padding: 0.5rem 1rem; /* Adjust button size on smaller screens */
+  }
 }

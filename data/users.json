@@ -1,123 +1,123 @@
 [
     {
       "id": 1,
-      "name": "Jane Doe",
-      "description": "Frontend Developer at Acme Inc.",
-      "image": "https://i.pravatar.cc/150?img=1"
+      "name": "Alice Johnson",
+      "description": "Frontend Developer",
+      "image": "/images/1.jpg"
     },
     {
       "id": 2,
-      "name": "John Smith",
-      "description": "SEO Specialist and Web Consultant",
-      "image": "https://i.pravatar.cc/150?img=2"
+      "name": "Michael Lee",
+      "description": "Backend Engineer",
+      "image": "/images/2.jpg"
     },
     {
       "id": 3,
-      "name": "Aisha Rahman",
-      "description": "UX Designer with a passion for inclusive design",
-      "image": "https://i.pravatar.cc/150?img=3"
+      "name": "Sophia Carter",
+      "description": "UX Designer",
+      "image": "/images/3.jpg"
     },
     {
       "id": 4,
-      "name": "Carlos Gonzalez",
-      "description": "Full-Stack Engineer at DevLabs",
-      "image": "https://i.pravatar.cc/150?img=4"
+      "name": "David Brown",
+      "description": "Product Manager",
+      "image": "/images/4.jpg"
     },
     {
       "id": 5,
-      "name": "Emily Wang",
-      "description": "Content Strategist and Tech Blogger",
-      "image": "https://i.pravatar.cc/150?img=5"
+      "name": "Emma Wilson",
+      "description": "Full Stack Developer",
+      "image": "/images/5.jpg"
     },
     {
       "id": 6,
-      "name": "Liam O'Connor",
-      "description": "Backend Developer focused on Node.js and NestJS",
-      "image": "https://i.pravatar.cc/150?img=6"
+      "name": "James White",
+      "description": "Software Engineer",
+      "image": "/images/6.jpg"
     },
     {
       "id": 7,
-      "name": "Fatima Al-Khalid",
-      "description": "Accessibility Advocate and Web Consultant",
-      "image": "https://i.pravatar.cc/150?img=7"
+      "name": "Olivia Smith",
+      "description": "Data Scientist",
+      "image": "/images/7.jpg"
     },
     {
       "id": 8,
-      "name": "Noah Kim",
-      "description": "Mobile App Developer - iOS & Android",
-      "image": "https://i.pravatar.cc/150?img=8"
+      "name": "Liam Harris",
+      "description": "DevOps Engineer",
+      "image": "/images/8.jpg"
     },
     {
       "id": 9,
-      "name": "Sophia Patel",
-      "description": "Data Scientist and Python Enthusiast",
-      "image": "https://i.pravatar.cc/150?img=9"
+      "name": "Isabella Martinez",
+      "description": "Graphic Designer",
+      "image": "/images/9.jpg"
     },
     {
       "id": 10,
-      "name": "Mohammed Hassan",
-      "description": "Cloud Architect - AWS and DevOps",
-      "image": "https://i.pravatar.cc/150?img=10"
+      "name": "Noah Garcia",
+      "description": "Marketing Specialist",
+      "image": "/images/10.jpg"
     },
     {
       "id": 11,
-      "name": "Olivia Brown",
-      "description": "Digital Marketer and SEO Analyst",
-      "image": "https://i.pravatar.cc/150?img=11"
+      "name": "Ava Clark",
+      "description": "Data Analyst",
+      "image": "/images/11.jpg"
     },
     {
       "id": 12,
-      "name": "Ethan Scott",
-      "description": "React/Next.js Engineer with 5+ years experience",
-      "image": "https://i.pravatar.cc/150?img=12"
+      "name": "Mason Lee",
+      "description": "Quality Assurance Engineer",
+      "image": "/images/12.jpg"
     },
     {
       "id": 13,
-      "name": "Zara Nwachukwu",
-      "description": "Product Designer with a knack for clean UI",
-      "image": "https://i.pravatar.cc/150?img=13"
+      "name": "Ethan Allen",
+      "description": "Systems Architect",
+      "image": "/images/13.jpg"
     },
     {
       "id": 14,
-      "name": "Jasper Lee",
-      "description": "Tech Lead at FutureSoft, building scalable systems",
-      "image": "https://i.pravatar.cc/150?img=14"
+      "name": "Chloe Taylor",
+      "description": "Product Designer",
+      "image": "/images/14.jpg"
     },
     {
       "id": 15,
-      "name": "Anna Müller",
-      "description": "Software Tester and QA Automation Engineer",
-      "image": "https://i.pravatar.cc/150?img=15"
+      "name": "Matthew King",
+      "description": "Frontend Engineer",
+      "image": "/images/15.jpg"
     },
     {
       "id": 16,
-      "name": "Ravi Mehta",
-      "description": "AI/ML Engineer working on NLP projects",
-      "image": "https://i.pravatar.cc/150?img=16"
+      "name": "Charlotte Evans",
+      "description": "Cloud Engineer",
+      "image": "/images/16.jpg"
     },
     {
       "id": 17,
-      "name": "Grace Thompson",
-      "description": "Project Manager in Agile Software Teams",
-      "image": "https://i.pravatar.cc/150?img=17"
+      "name": "Daniel Hall",
+      "description": "Security Analyst",
+      "image": "/images/17.jpg"
     },
     {
       "id": 18,
-      "name": "Youssef Khalifa",
-      "description": "Cybersecurity Expert and Penetration Tester",
-      "image": "https://i.pravatar.cc/150?img=18"
+      "name": "Amelia Young",
+      "description": "Network Engineer",
+      "image": "/images/18.jpg"
     },
     {
       "id": 19,
-      "name": "Emma Johnson",
-      "description": "Web Developer specializing in accessibility",
-      "image": "https://i.pravatar.cc/150?img=19"
+      "name": "Lucas Scott",
+      "description": "Software Developer",
+      "image": "/images/19.jpg"
     },
     {
       "id": 20,
-      "name": "Kofi Mensah",
-      "description": "Blockchain Developer and Web3 Enthusiast",
-      "image": "https://i.pravatar.cc/150?img=20"
+      "name": "Lily Adams",
+      "description": "Mobile Developer",
+      "image": "/images/20.jpg"
     }
   ]
   
